@@ -1,0 +1,25 @@
+{
+  "name": "parse-sc-ship-data",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A node.js project to create a JSON list of the currently released Star Citizen ships by parsing website info",
+  "main": "fetch_ships.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ColbyWanShinobi/parse-sc-ship-data.git"
+  },
+  "author": "Colby Butler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ColbyWanShinobi/parse-sc-ship-data/issues"
+  },
+  "homepage": "https://github.com/ColbyWanShinobi/parse-sc-ship-data#readme",
+  "dependencies": {
+    "html-format": "^1.1.2",
+    "jsdom": "^22.1.0",
+    "node-fetch": "^3.3.1"
+  }
+}
